@@ -21,6 +21,7 @@ def f(n):
 
 
 res = 0
-for i in range(1, 2021):
-    res += f(i)
+if __name__ == "__main__":
+    for i in range(1, 2021):
+        res += f(i)
 print(res)
