@@ -1,3 +1,4 @@
-import datetime
-now = datetime.datetime.now().time()
-print(now)
+
+N,M = map(int,input().split())
+print(type(M))
+print(N)
