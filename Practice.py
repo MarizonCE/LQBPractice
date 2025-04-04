@@ -1,4 +1,6 @@
-def bubble_sort(lst)
+a = input("请输入一个值：")  # 这里定义了全局变量 a
 
+def print_a():
+    print(a)  # 在函数内部直接调用全局变量 a
 
-data_list = [15, 16, 6, 8, 5]
+print_a()
